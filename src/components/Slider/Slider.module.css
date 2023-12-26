@@ -1,6 +1,7 @@
 .arrow_button {
   font-size: 25px;
   border: 0;
+  background-color: var(--white-color);
 }
 
 .arrow_button:hover {
