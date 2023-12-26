@@ -1,0 +1,28 @@
+:root {
+  --logo-text-color: #233348;
+  --black-color: #000;
+  --white-color: #fff;
+
+  --gray-text-color: #7d7987;
+  --button1-color: #458ff6;
+  --button1-color-hover: #7fb1f7;
+
+  --blue-color: rgba(69, 143, 246, 1);
+
+  --divider-color: #000;
+
+  --card-shadow: rgba(229, 233, 246, 0.4);
+  --slider-background-color: linear-gradient(215deg, #67c3f3 0%, #5a98f2 100%);
+  --dot-color: rgba(91, 155, 243, 1);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+}

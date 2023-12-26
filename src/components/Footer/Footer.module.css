@@ -1,0 +1,77 @@
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5% 0;
+  width: 100%;
+  background-color: var(--dot-color);
+  margin-top: 150px;
+}
+.column_logo {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.logo_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.company_logo {
+  display: flex;
+  border-radius: 100%;
+  width: 41px;
+  height: 41px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: var(--white-color);
+  margin-right: 10px;
+  text-align: center;
+  color: var(--dot-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.company_name {
+  color: var(--white-color);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  white-space: nowrap;
+}
+.text_block_under_logo {
+  color: var(--white-color);
+  font-size: 18;
+  font-style: normal;
+  font-weight: 300;
+}
+.text_block {
+  color: var(--white-color);
+  font-size: 18;
+  font-style: normal;
+  font-weight: 300;
+  padding-top: 30px;
+}
+.header_text_column {
+  color: var(--white-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.default_text_column {
+  color: var(--white-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+  text-decoration: none;
+}

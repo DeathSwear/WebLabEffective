@@ -1,0 +1,61 @@
+.headerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  border-radius: 100%;
+  width: 41px;
+  height: 41px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: var(--blue-color);
+  margin-right: 20px;
+  color: var(--white-color);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.topNavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.navButton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: var(--gray-text-color);
+}
+
+button:hover {
+  border-color: transparent;
+  background-color: var(--button1-color-hover);
+  color: var(--black-color);
+}

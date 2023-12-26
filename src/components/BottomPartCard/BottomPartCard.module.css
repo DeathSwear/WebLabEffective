@@ -1,0 +1,54 @@
+.cardMaterial {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border-radius: 20px;
+  width: 30%;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.title_article {
+  color: var(--primary-text-color);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 10%;
+  padding: 0 20px;
+}
+
+.subtitle_article {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+.moreButton {
+  color: var(--blue-color);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 10%;
+  margin-left: 0;
+  border-radius: 8px;
+  border: 0;
+  margin-left: 20px;
+}
+.articleImage {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.moreButton:hover {
+  color: var(--blue-color);
+  background-color: var(--white-color);
+  scale: 1.3;
+}
